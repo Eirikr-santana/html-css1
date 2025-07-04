@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exemplo de hover</title>
+    <style>
+        div:hover {
+            color: red;
+        }
+        
+        div>a {
+            display: none;
+        }
+        
+        div:hover>a {
+            display: block;
+            background-color: blue;
+            color: white;
+            width: 50px;
+        }
+        
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>exemplo de hover</h1>
+    <p>passe o mouse sobre o texto abaixo</p>
+    <div>passe o mouse aqui
+        <a href="https://color.adobe.com/pt/s-complementares-circulo-cromatico-color-theme-11782118?utm_source=chatgpt.com" target="_blank">linjk</a>
+    </div>
+
+</body>
+
+</html>

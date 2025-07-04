@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <style>
+         :root {
+            --cor1: #2f6ea4;
+            --cor2: #2c6a99;
+            --cor3: #154d70;
+            --cor4: #d1e8f8;
+        }
+        
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: black;
+            color: #fff !important;
+        }
+        
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: var(--cor1);
+            padding: 10px;
+            color: #fff;
+            max-width: 1000px;
+            margin: auto;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        
+        header h2 {
+            font-size: 1.5em;
+        }
+        
+        header nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 10px;
+            font-weight: bold;
+        }
+        
+        main {
+            max-width: 1000px;
+            margin: auto;
+            padding: 10px;
+            background-color: black;
+            color: #fff !important;
+        }
+        
+        .conteudo {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            align-items: center;
+            color: #fff !important;
+        }
+        
+        .caixa1 {
+            flex: 1 1 300px;
+            color: #fff !important;
+        }
+        
+        .caixa1 h1 {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+        }
+        
+        .caixa1 p {
+            font-weight: bold;
+        }
+        
+        .caixa2 {
+            flex: 1 1 300px;
+            background-color: gray;
+            padding: 20px;
+            border-radius: 20px;
+            text-align: center;
+        }
+        
+        .caixa2 img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        
+        button {
+            background-color: var(--cor2);
+            color: #fff;
+            border: none;
+            margin-top: 20px;
+            width: 200px;
+            height: 45px;
+            font-size: 1em;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        .linha {
+            background-color: var(--cor2);
+            width: 100%;
+            height: 3px;
+            margin: 30px 0;
+        }
+        
+        aside h2 {
+            margin-bottom: 10px;
+            font-size: 1.2em;
+            color: #fff !important;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2>meu website</h2>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Absout</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <div class="caixa1">
+                <h1>Bem vindo ao meu Website</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus odio ratione aliquid iusto illo quibusdam, dolorem beatae perferendis quo, laudantium quia quae corrupti architecto. Architecto velit perspiciatis aperiam reiciendis
+                    voluptatem?
+                </p>
+                <a href="index.html"><button>Mas sobre</button></a>
+            </div>
+            <div class="caixa2"><img src="WhatsApp Image 2025-04-30 at 14.35.49.jpeg" alt=""></div>
+        </article>
+        <div class="linha"></div>
+        <aside>
+            <h2>Noticias</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut deserunt magni nesciunt sint facilis repellendus exercitationem illo impedit repudiandae, quo animi mollitia debitis libero quisquam sit iusto eum placeat in.</p>
+        </aside>
+    </main>
+
+</body>
+
+</html>

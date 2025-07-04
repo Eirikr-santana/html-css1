@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: dimgray;
+        margin: 0px;
+    }
+    
+    header {
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+    }
+    
+    main {
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 20px;
+    }
+    
+    article>aside {
+        background-color: rgb(102, 102, 102);
+    }
+    
+    article {
+        background-color: lightgray;
+    }
+    
+    footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 1px;
+        margin: 0px;
+    }
+    
+    nav>a {
+        text-decoration: none;
+        margin-right: 10px;
+        color: black;
+    }
+    
+    nav {
+        box-shadow: 1px 1px 1px black;
+        padding: 5px;
+    }
+    
+    nav>a:hover {
+        text-decoration: underline;
+    }
+    
+    footer>p {
+        margin: 0;
+    }
+    
+    #bola {
+        height: 100px;
+        width: 100px;
+        background-color: white;
+        margin: 10px;
+        border-radius: 50%;
+    }
+</style>
+
+<body>
+    <header>
+        <h1 style="text-align: center;">meu site</h1>
+        <nav>
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+
+
+        </nav>
+
+    </header>
+    <main>
+        <section id="assunto">
+            <p>sport e tecnologia</p>
+        </section>
+        <section id="noticia">
+            <article>
+                <h2>noticia sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis itaque illum officia laudantium reprehenderit aliquid debitis ullam magnam dolorum, fugiat architecto accusamus corrupti dignissimos consectetur dolor alias voluptate
+                    recusandae est?</p>
+                <aside>
+                    <p>artigo escrito por jose da silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+
+        <p>desenvolvido pelo mandeio</p>
+
+    </footer>
+    <div id="bola"></div>
+</body>
+
+</html>

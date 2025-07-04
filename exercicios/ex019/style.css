@@ -1,0 +1,42 @@
+    @charset "UTF-8";
+    body {
+        background-color: #9DDD77;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    /*
+    em html e id em css vira #
+
+    em html e class em css e .
+
+
+    */
+    
+    h1 {
+        color: #1e402f
+    }
+    
+    h1#pricipal {
+        text-align: center;
+        background-color: #3c805e;
+        color: white;
+    }
+    
+    h2 {
+        color: green;
+    }
+    
+    .basico {
+        color: green;
+    }
+    
+    .intermediario {
+        color: red;
+    }
+    
+    .avançado {
+        color: yellow;
+    }
+    
+    .destaque {
+        background-color: #5eff00;
+    }
